@@ -13,11 +13,12 @@ This webpage contains the functions written for the MATH 5620 class.
 | 3 | [absolute_error()](https://swiser.github.io/MATH5620/HW1/absolute_error) | Computes the absolute error between two values |
 | 4 | [relative_error()](https://swiser.github.io/MATH5620/HW1/relative_error) | Computes the relative error between two values |
 
-### 2. Routines for Elliptic Problems
+### 2. Routines for Testing Differential Equations
 
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
-| 1 | [bisection()](https://swiser.github.io/MATH4610/HW2/bisection) | Computes root of *f(x)* using bisection method |
+| 1 | [true_logistic_function()](https://swiser.github.io/MATH5620/HW1/true_logistic_function) | Computes P(t) of common logistic function |
+| 2 | [spring_mass()](https://swiser.github.io/MATH5620/HW1/true_logistic_function) | Computes y(t) of spring-mass-damper system |
 
 
 ### Appendix
