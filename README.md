@@ -18,7 +18,7 @@ This webpage contains the functions written for the MATH 5620 class.
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
 | 1 | [true_logistic_function()](https://swiser.github.io/MATH5620/HW1/true_logistic_function) | Computes P(t) of common logistic function |
-| 2 | [spring_mass()](https://swiser.github.io/MATH5620/HW1/true_logistic_function) | Computes y(t) of spring-mass-damper system |
+| 2 | [spring_mass()](https://swiser.github.io/MATH5620/HW1/spring_mass) | Computes y(t) of spring-mass-damper system |
 
 
 ### Appendix
