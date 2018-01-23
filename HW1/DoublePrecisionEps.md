@@ -61,5 +61,5 @@ print '64',np.spacing(np.float64(1.0))
 
 ```
 Test: Binary Digits (Double): 52 Epsilon: 2.22044604925e-16 False True
-64 2.22044604925e-16
+64 2.22044604924e-16
 ```
