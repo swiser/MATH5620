@@ -45,6 +45,7 @@ This webpage contains the functions written for the MATH 5620 class.
 | 1 | [finite_coefficients()](https://swiser.github.io/MATH5620/HW2/finite_coefficients) | Computes coefficients for arbitrary finite difference methods |
 
 ### 2. Elliptic Problems
+
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
 | 1 | [elliptic_ODE()](https://swiser.github.io/MATH5620/HW2/elliptic_ODE) | Solves a simple elliptic ODE with Dirichlet Boundary Conditions |
