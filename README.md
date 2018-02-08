@@ -33,8 +33,8 @@ This webpage contains the functions written for the MATH 5620 class.
 | 1 | [LU_factorization()](https://swiser.github.io/MATH5620/HW2/LU_factorization) | Performs LU decomposition with scaled partial pivoting |
 | 2 | [LU_solve()](https://swiser.github.io/MATH5620/HW2/LU_solve) | Solves a system [L][U]x=b |
 | 3 | [LU_tridiag()](https://swiser.github.io/MATH5620/HW2/LU_tridiag) | Uses LU decomposition to solve a tridiagonal linear system |
-| 4 | [Jacobi_tridiag()](https://swiser.github.io/MATH5620/HW2/LU_tridiag) | Uses Jacobi iteration to solve a tridiagonal linear system |
-| 5 | [Thomas_alg()](https://swiser.github.io/MATH5620/HW2/LU_tridiag) | Uses the Thomas Algorithm to solve a tridiagonal linear system |
+| 4 | [Jacobi_tridiag()](https://swiser.github.io/MATH5620/HW2/Jacobi_tridiag) | Uses Jacobi iteration to solve a tridiagonal linear system |
+| 5 | [Thomas_alg()](https://swiser.github.io/MATH5620/HW2/Thomas_alg) | Uses the Thomas Algorithm to solve a tridiagonal linear system |
 
 ## Differential Equations
 
