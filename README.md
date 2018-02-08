@@ -58,6 +58,8 @@ This webpage contains the functions written for the MATH 5620 class.
 | 1 | [true_logistic_function()](https://swiser.github.io/MATH5620/HW1/true_logistic_function) | Computes P(t) of common logistic function |
 | 2 | [spring_mass()](https://swiser.github.io/MATH5620/HW1/spring_mass) | Computes y(t) of spring-mass-damper system |
 | 3 | [Tridiagonal Solver Comparison](https://swiser.github.io/MATH5620/HW2/tri_solvers) | Compare tridiagonal system solvers |
+| 4 | [Problem 2-9](https://swiser.github.io/MATH5620/HW2/problem9) | Elliptic ODE with k(x) condition |
+
 
 
 
