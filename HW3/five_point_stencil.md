@@ -174,7 +174,7 @@ for j in xrange(1,m,1):
 
 fig1=plt.figure(figsize=(9,7))
 ax=fig1.add_subplot(111,projection='3d')
-ax.set_title('3 point stencil, 3x3 internal grid')
+ax.set_title('5 point stencil, 3x3 internal grid')
 ax.plot_surface(x_graph,y_graph,z_values,cmap=cm.coolwarm,alpha=.5)
 ax.scatter(x_graph,y_graph,z_values)
 ax.set_xlabel('X axis')
@@ -196,3 +196,6 @@ plt.show()
 
 ![19x19](https://swiser.github.io/MATH5620/HW3/19x19_grid.png)
 
+19x5 rectangular grid:
+
+![19x5](https://swiser.github.io/MATH5620/HW3/19x5_grid.png)
