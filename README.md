@@ -59,7 +59,7 @@ This webpage contains the functions written for the MATH 5620 class.
 
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
-| 1 | [three_point_stencil()](https://swiser.github.io/MATH5620/HW3/three_point_stencil) | Solves a Laplace equation in two dimensions using a three point stencil |
+| 1 | [five_point_stencil()](https://swiser.github.io/MATH5620/HW3/five_point_stencil) | Solves a Laplace equation in two dimensions using a five point stencil |
 
 ## Test Problems
 
