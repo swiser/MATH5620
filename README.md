@@ -35,6 +35,11 @@ This webpage contains the functions written for the MATH 5620 class.
 | 3 | [LU_tridiag()](https://swiser.github.io/MATH5620/HW2/LU_tridiag) | Uses LU decomposition to solve a tridiagonal linear system |
 | 4 | [Jacobi_tridiag()](https://swiser.github.io/MATH5620/HW2/Jacobi_tridiag) | Uses Jacobi iteration to solve a tridiagonal linear system |
 | 5 | [Thomas_alg()](https://swiser.github.io/MATH5620/HW2/Thomas_alg) | Uses the Thomas Algorithm to solve a tridiagonal linear system |
+| 6 | [one_norm_matrix()](https://swiser.github.io/MATH5620/HW3/one_norm_matrix) | Computes the 1-norm of a matrix |
+| 7 | [inf_norm_matrix()](https://swiser.github.io/MATH5620/HW3/inf_norm_matrix) | Computes the ∞-norm of a matrix |
+| 8 | [power_method()](https://swiser.github.io/MATH5620/HW3/power_method) | Computes the largest eigenvalue of a matrix |
+| 9 | [inverse_power_method()](https://swiser.github.io/MATH5620/HW3/inverse_power_method) | Computes the smallest eigenvalue of a matrix |
+
 
 ## Differential Equations
 
@@ -50,6 +55,11 @@ This webpage contains the functions written for the MATH 5620 class.
 | :--- | :---: | :--- |
 | 1 | [elliptic_ODE()](https://swiser.github.io/MATH5620/HW2/elliptic_ODE) | Solves a simple elliptic ODE with Dirichlet Boundary Conditions |
 
+### 2. Partial Differential Equations
+
+| # | Function Name and Link | Description |
+| :--- | :---: | :--- |
+| 1 | [three_point_stencil()](https://swiser.github.io/MATH5620/HW3/three_point_stencil) | Solves a Laplace equation in two dimensions using a three point stencil |
 
 ## Test Problems
 
