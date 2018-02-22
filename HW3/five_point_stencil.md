@@ -59,7 +59,7 @@ def five_point_laplace(n,m,function):
     A=[[0 for row in xrange(size)] for col in xrange(size)]
     b=[0 for col in xrange(size)]
     
-    ## Generate A matrix for 3-point stencil
+    ## Generate A matrix for 5-point stencil
     for j in xrange(1,m,1):
         for i in xrange(1,n,1):
             #compute row value of A[]
