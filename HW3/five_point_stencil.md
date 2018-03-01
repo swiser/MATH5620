@@ -17,7 +17,7 @@ Solve the given Laplace Equation on the unit square in two dimensions using a fi
 
 ### Outputs
 
-* lambda: The largest eigenvalue of matrix A
+* u: The _u(x,y)_ values for a given mesh
 
 ### Modules Used
 
@@ -122,6 +122,7 @@ delta_x=1/float(n)
 delta_y=1/float(m)
 u=five_point_laplace(n,m,lambda x,y:math.sin(x*y))
 
+print "5 point stencil:"
 print "{:>6s}|{:>6s}|".format('i','j'),
 print "{:>10s}|{:>10s}|".format('x value','y value'),
 print "{:>10s}".format('u(x,y)')
@@ -137,6 +138,7 @@ for j in xrange(1,m,1):
 #### Output
 
 ```
+5 point stencil:
      i|     j|    x value|   y value|     u(x,y)
      1|     1|   0.250000|  0.250000| -0.0060656
      2|     1|   0.500000|  0.250000| -0.0101793
@@ -172,15 +174,19 @@ for j in xrange(1,m,1):
         cell=(n-1)*(j-1)+(i-1)
         z_values[j][i]=(u[cell])
 
-fig1=plt.figure(figsize=(9,7))
+## Graph and save as png
+fig1=plt.figure(figsize=(10,7))
 ax=fig1.add_subplot(111,projection='3d')
-ax.set_title('5 point stencil, 3x3 internal grid')
+title='5 point stencil, {:d}x{:d} internal grid'.format(n-1,m-1)
+figname='{:d}x{:d}_grid.png'.format(n-1,m-1)
+ax.set_title(title)
 ax.plot_surface(x_graph,y_graph,z_values,cmap=cm.coolwarm,alpha=.5)
 ax.scatter(x_graph,y_graph,z_values)
 ax.set_xlabel('X axis')
 ax.set_ylabel('Y axis')
-ax.set_zlabel('Z axis')
-plt.show()
+ax.set_zlabel('Z axis',labelpad=15)
+fig1.savefig(figname,dpi=300,bbox_inches='tight',pad_inches=0.4)
+plt.close('all')
 ```
 
 #### Graphing Output
@@ -199,3 +205,4 @@ plt.show()
 19x5 rectangular grid:
 
 ![19x5](https://swiser.github.io/MATH5620/HW3/19x5_grid.png)
+
