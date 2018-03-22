@@ -41,7 +41,7 @@ This webpage contains the functions written for the MATH 5620 class.
 | 9 | [inverse_power_method()](https://swiser.github.io/MATH5620/HW3/inverse_power_method) | Computes the smallest eigenvalue of a matrix |
 | 10 | [jacobi()](https://swiser.github.io/MATH5620/HW4/jacobi) | Solves a matrix system [A][x]=[b] using Jacobi Iteration |
 | 11 | [gauss_seidel()](https://swiser.github.io/MATH5620/HW4/gauss_seidel) | Solves a matrix system [A][x]=[b] using Gauss Seidel Iteration |
-| 12 | [conjugate_gradient()](https://swiser.github.io/MATH5620/HW4/gauss_seidel) | Solves a matrix system [A][x]=[b] using the Conjugate Gradient method |
+| 12 | [conjugate_gradient()](https://swiser.github.io/MATH5620/HW4/conjugate_gradient) | Solves a matrix system [A][x]=[b] using the Conjugate Gradient method |
 
 
 ## Differential Equations
