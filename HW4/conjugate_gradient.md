@@ -1,7 +1,7 @@
 # Function Name: conjugate_gradient()
 
 ### Last Mod Date
-December 12, 2017
+March 21, 2017
 ### Author
 Skyler Wiser
 ### Written For
