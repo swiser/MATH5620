@@ -73,7 +73,7 @@ u=five_point_laplace(n,m,lambda x,y:math.sin(x*y))
 Using a 5x5, 10x10, 15x15 and 20x20 mesh, the following output was recorded:
 
 
-```
+```python
 For size 25 matrix:
 Jacobi took:     48 iterations, error from LU:0.000059
 Gauss Seidel took:     28 iterations, error from LU:0.000025
