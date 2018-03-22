@@ -19,7 +19,7 @@ Solve with different iterative methods the given Laplace Equation on the unit sq
 
 * [LU Factorization](https://swiser.github.io/MATH5620/HW2/LU_factorization)
 * [LU Solve](https://swiser.github.io/MATH5620/HW2/LU_solve)
-* [5-Point Stencil (with slight modifications)](https://swiser.github.io/MATH5620/HW3/five_point_stencil)
+* [5-Point Stencil](https://swiser.github.io/MATH5620/HW3/five_point_stencil)
 * [Jacobi Solver](https://swiser.github.io/MATH5620/HW4/jacobi)
 * [Gauss-Seidel Solver](https://swiser.github.io/MATH5620/HW4/gauss_seidel)
 * [Conjugate Gradient Solver](https://swiser.github.io/MATH5620/HW4/conjugate_gradient)
