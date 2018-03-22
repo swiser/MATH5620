@@ -116,7 +116,7 @@ Using different delta_t's for the first problem, we can see that smaller delta_t
 
 ##### First Example
 
-```
+```python
 Timestep:   1.000000 seconds
 From explicit_euler_tracking():
 u( 0.00)=   15.0000   | Exact:    15.0000
