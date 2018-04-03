@@ -14,6 +14,8 @@ This webpage contains the functions written for the MATH 5620 class.
 | 2 | [DoublePrecisionEps()](https://swiser.github.io/MATH5620/HW1/DoublePrecisionEps) | Computes machine epsilon, double precision |
 | 3 | [absolute_error()](https://swiser.github.io/MATH5620/HW1/absolute_error) | Computes the absolute error between two values |
 | 4 | [relative_error()](https://swiser.github.io/MATH5620/HW1/relative_error) | Computes the relative error between two values |
+| 5 | [euler_newton()](https://swiser.github.io/MATH5620/HW5/euler_newton) | Modified Newton method for implicit Euler method |
+
 
 ### 2. Vector Routines
 
@@ -70,7 +72,10 @@ This webpage contains the functions written for the MATH 5620 class.
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
 | 1 | [explicit_euler()](https://swiser.github.io/MATH5620/HW4/explicit_euler) | Solve a general IVP using a single-step explicit Euler method |
-| 1 | [explicit_euler_tracking()](https://swiser.github.io/MATH5620/HW4/explicit_euler_tracking) | Solve a general IVP using a single-step explicit Euler method for a vector of values |
+| 2 | [explicit_euler_tracking()](https://swiser.github.io/MATH5620/HW4/explicit_euler_tracking) | Solve a general IVP using a single-step explicit Euler method for a vector of values |
+| 3 | [implicit_euler()](https://swiser.github.io/MATH5620/HW5/implicit_euler) | Solve a general IVP using a single-step implicit Euler method |
+| 4 | [Runge Kutta](https://swiser.github.io/MATH5620/HW5/runge_kutta) | Solve a general IVP using second and fourth order Runge-Kutta methods |
+| 5 | [Predictor-Corrector](https://swiser.github.io/MATH5620/HW5/predictor_corrector) | Solve a general IVP using an Adams Bashforth/Moulton predictor-corrector method |
 
 ## Test Problems
 
@@ -86,6 +91,7 @@ This webpage contains the functions written for the MATH 5620 class.
 | # | Study | Description |
 | :--- | :---: | :--- |
 | 1 | [Iterative Comparison](https://swiser.github.io/MATH5620/HW4/iterative_comparison) | Compares iterative matrix solvers and the amount of iterations it takes for each to converge |
+| 2 | [IVP Stepping Comparison](https://swiser.github.io/MATH5620/HW5/stepping_methods) | Compares different functions' ability to solve general initial value problems |
 
 
 
