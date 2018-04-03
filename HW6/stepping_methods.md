@@ -18,7 +18,7 @@ Compare different functions capable of solving the intial value problem _u'=f(u,
 
 
 
-
+<img src="https://latex.codecogs.com/gif.latex?\dpi{200}&space;f(x)=\int_{x}^{y}=4=\varepsilon&space;\zeta&space;\rho&space;\beta&space;\frac{\frac{\partial&space;}{\partial&space;x}}{4}" title="f(x)=\int_{x}^{y}=4=\varepsilon \zeta \rho \beta \frac{\frac{\partial }{\partial x}}{4}" />
 
 
 ### Problem 1
