@@ -16,6 +16,14 @@ Compare different functions capable of solving the intial value problem _u'=f(u,
 * [Runge Kutta Methods](https://swiser.github.io/MATH5620/HW5/runge_kutta)
 * [Adams Bashforth/Moulton](https://swiser.github.io/MATH5620/HW5/predictor_corrector)
 
+# Notice
+
+**I just noticed that when the interval cannot be divided evenly by delta_t it cuts short. I.E. if i'm approximating u(2.0) starting at u(0.0) using delta_t=.3 it will output the approximation for u(1.8).**
+
+**I will revise the test conditions to fix this.**
+
+**-Skyler 4/3/18 10:00 AM**
+
 ### Problem 1
 
 #### Problem 1, Example Input
