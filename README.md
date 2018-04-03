@@ -93,7 +93,8 @@ This webpage contains the functions written for the MATH 5620 class.
 | 1 | [Iterative Comparison](https://swiser.github.io/MATH5620/HW4/iterative_comparison) | Compares iterative matrix solvers and the amount of iterations it takes for each to converge |
 | 2 | [IVP Stepping Comparison](https://swiser.github.io/MATH5620/HW5/stepping_methods) | Compares different functions' ability to solve general initial value problems |
 
-
+## Latex Testing
+[Test Link](https://swiser.github.io/MATH5620/HW6/stepping_methods)
 
 ## Appendix
 
