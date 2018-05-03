@@ -60,14 +60,14 @@ This webpage contains the functions written for the MATH 5620 class.
 | :--- | :---: | :--- |
 | 1 | [elliptic_ODE()](https://swiser.github.io/MATH5620/HW2/elliptic_ODE) | Solves a simple elliptic ODE with Dirichlet Boundary Conditions |
 
-### 2. Partial Differential Equations
+### 3. Partial Differential Equations
 
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
 | 1 | [five_point_stencil()](https://swiser.github.io/MATH5620/HW3/five_point_stencil) | Solves a Laplace equation in two dimensions using a five point stencil |
 | 2 | [nine_point_stencil()](https://swiser.github.io/MATH5620/HW3/nine_point_stencil) | Solves a Laplace equation in two dimensions using a nine point stencil |
 
-### 3. Initial Value Problems/Methods
+### 4. Initial Value Problems/Methods
 
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
@@ -76,6 +76,16 @@ This webpage contains the functions written for the MATH 5620 class.
 | 3 | [implicit_euler()](https://swiser.github.io/MATH5620/HW5/implicit_euler) | Solve a general IVP using a single-step implicit Euler method |
 | 4 | [Runge Kutta](https://swiser.github.io/MATH5620/HW5/runge_kutta) | Solve a general IVP using second and fourth order Runge-Kutta methods |
 | 5 | [Predictor-Corrector](https://swiser.github.io/MATH5620/HW5/predictor_corrector) | Solve a general IVP using an Adams Bashforth/Moulton predictor-corrector method |
+
+### 5. Parabolic Problems (Heat Equation)
+
+| # | Function Name and Link | Description |
+| :--- | :---: | :--- |
+| 1 | [Heat Equation: Explicit Euler](https://swiser.github.io/MATH5620/HW6/HE_explicit) | Solve the heat equation using explicit Euler |
+| 2 | [Heat Equation: Implicit Euler](https://swiser.github.io/MATH5620/HW6/HE_implicit) | Solve the heat equation using implicit Euler |
+| 3 | [Heat Equation: Predictor-Corrector](https://swiser.github.io/MATH5620/HW6/HE_predictor_corrector) | Solve the heat equation using Predictor-Corrector |
+| 4 | [Heat Equation: RK4](https://swiser.github.io/MATH5620/HW6/HE_RK4) | Solve the heat equation using RK4 timestepping |
+
 
 ## Test Problems
 
@@ -86,18 +96,23 @@ This webpage contains the functions written for the MATH 5620 class.
 | 3 | [Tridiagonal Solver Comparison](https://swiser.github.io/MATH5620/HW2/tri_solvers) | Compare tridiagonal system solvers |
 | 4 | [Problem 2-9](https://swiser.github.io/MATH5620/HW2/Problem_9) | Elliptic ODE with k(x) condition |
 
+
+
+
 ## Comparisons and Case Studies
 
 | # | Study | Description |
 | :--- | :---: | :--- |
 | 1 | [Iterative Comparison](https://swiser.github.io/MATH5620/HW4/iterative_comparison) | Compares iterative matrix solvers and the amount of iterations it takes for each to converge |
 | 2 | [IVP Stepping Comparison](https://swiser.github.io/MATH5620/HW5/stepping_methods) | Compares different functions' ability to solve general initial value problems |
+| 3 | [Chapter 7 IVP Testing](https://swiser.github.io/MATH5620/HW6/HW_6_comparison) | Recreate Chap. 7 stability concerns using IVP methods |
 
-## Latex Testing
-[Test Link](https://swiser.github.io/MATH5620/HW6/stepping_methods)
+
 
 ## Appendix
 
-(old book, to be updated)
+LeVeque, Randall J. Finite Difference Methods for Ordinary and Partial Differential Equations. Society for Industrial and Applied Mathematics, 2007.
+
 Ascher, U. M., and Chen Greif. A First Course in Numerical Methods. Society for Industrial and Applied Mathematics, 2011.
+
 
