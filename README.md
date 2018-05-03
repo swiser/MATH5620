@@ -86,6 +86,13 @@ This webpage contains the functions written for the MATH 5620 class.
 | 3 | [Heat Equation: Predictor-Corrector](https://swiser.github.io/MATH5620/HW7/HE_predictor_corrector) | Solve the heat equation using Predictor-Corrector |
 | 4 | [Heat Equation: RK4](https://swiser.github.io/MATH5620/HW7/HE_RK4) | Solve the heat equation using RK4 timestepping |
 
+### 6. Hyperbolic Problems (Advection)
+
+| # | Function Name and Link | Description |
+| :--- | :---: | :--- |
+| 1 | [Scalar Advection: Upwinding](https://swiser.github.io/MATH5620/HW8/upwinding) | Solve an advection problem using upwinding |
+| 2 | [Scalar Advection: Lax-Wendroff](https://swiser.github.io/MATH5620/HW8/lax_wendroff) | Solve an advection problem using the Lax-Wendroff method |
+| 3 | [Scalar Advection: Beam-Warming](https://swiser.github.io/MATH5620/HW8/beam_warming) | Solve an advection problem using the Beam-Warming method |
 
 ## Test Problems
 
