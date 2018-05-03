@@ -81,10 +81,10 @@ This webpage contains the functions written for the MATH 5620 class.
 
 | # | Function Name and Link | Description |
 | :--- | :---: | :--- |
-| 1 | [Heat Equation: Explicit Euler](https://swiser.github.io/MATH5620/HW6/HE_explicit) | Solve the heat equation using explicit Euler |
-| 2 | [Heat Equation: Implicit Euler](https://swiser.github.io/MATH5620/HW6/HE_implicit) | Solve the heat equation using implicit Euler |
-| 3 | [Heat Equation: Predictor-Corrector](https://swiser.github.io/MATH5620/HW6/HE_predictor_corrector) | Solve the heat equation using Predictor-Corrector |
-| 4 | [Heat Equation: RK4](https://swiser.github.io/MATH5620/HW6/HE_RK4) | Solve the heat equation using RK4 timestepping |
+| 1 | [Heat Equation: Explicit Euler](https://swiser.github.io/MATH5620/HW7/HE_explicit) | Solve the heat equation using explicit Euler |
+| 2 | [Heat Equation: Implicit Euler](https://swiser.github.io/MATH5620/HW7/HE_implicit) | Solve the heat equation using implicit Euler |
+| 3 | [Heat Equation: Predictor-Corrector](https://swiser.github.io/MATH5620/HW7/HE_predictor_corrector) | Solve the heat equation using Predictor-Corrector |
+| 4 | [Heat Equation: RK4](https://swiser.github.io/MATH5620/HW7/HE_RK4) | Solve the heat equation using RK4 timestepping |
 
 
 ## Test Problems
