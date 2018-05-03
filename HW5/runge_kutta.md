@@ -1,7 +1,7 @@
 # Function Name: RK_2() and RK_4()
 
 ### Last Mod Date
-April 2, 2018
+May 3, 2018
 ### Author
 Skyler Wiser
 ### Written For
@@ -34,17 +34,28 @@ def RK_2(u_prime, u0, t0,t_final,delta_t):
     time=t0
     u_old=u0
     u_new=u0
+    iterator=1
+    
     while(time<t_final):
         u_star=u_old+.5*delta_t*u_prime(u_old,time)
         u_new=u_old+delta_t*u_prime(u_star,time+delta_t/2.0)
         u_old=u_new
-        time+=delta_t
+        time=delta_t*iterator
+        iterator+=1
+        
+	 if time>t_final:
+        delta_t=t_final-time
+        u_star=u_old+.5*delta_t*u_prime(u_old,time)
+        u_new=u_old+delta_t*u_prime(u_star,time+delta_t/2.0)
+        
     return u_new
 
 def RK_4(u_prime, u0, t0,t_final,delta_t):
     time=t0
     u_old=u0
     u_new=u0
+    iterator=1
+    
     while(time<t_final):
         k1=delta_t*u_prime(u_old,time)
         k2=delta_t*u_prime(u_old+0.5*k1,time+0.5*delta_t)
@@ -53,7 +64,17 @@ def RK_4(u_prime, u0, t0,t_final,delta_t):
         
         u_new=u_old+(1/6.0)*(k1+2*k2+2*k3+k4)
         u_old=u_new
-        time+=delta_t
+        time=delta_t*iterator
+        iterator+=1
+
+    if time>t_final:
+        delta_t=t_final-time
+        k1=delta_t*u_prime(u_old,time)
+        k2=delta_t*u_prime(u_old+0.5*k1,time+0.5*delta_t)
+        k3=delta_t*u_prime(u_old+0.5*k2,time+0.5*delta_t)
+        k4=delta_t*u_prime(u_old+k3,time+delta_t)
+        u_new=u_old+(1/6.0)*(k1+2*k2+2*k3+k4)
+        
     return u_new
 ```
 
