@@ -127,7 +127,7 @@ plt.show()
 
 ![Positive Scalar](https://swiser.github.io/MATH5620/HW8/positive_upwind.png)
 
-![Negative Scalar](https://swiser.github.io/MATH5620/HW/negative_upwind.png)
+![Negative Scalar](https://swiser.github.io/MATH5620/HW8/negative_upwind.png)
 
 
 

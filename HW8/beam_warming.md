@@ -134,7 +134,7 @@ plt.show()
 
 ![Positive Scalar](https://swiser.github.io/MATH5620/HW8/beam_warming_positive.png)
 
-![Negative Scalar](https://swiser.github.io/MATH5620/HW/beam_warming_negative.png)
+![Negative Scalar](https://swiser.github.io/MATH5620/HW8/beam_warming_negative.png)
 
 
 

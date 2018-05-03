@@ -127,7 +127,7 @@ plt.show()
 
 ![Positive Scalar](https://swiser.github.io/MATH5620/HW8/lax_wendroff_positive.png)
 
-![Negative Scalar](https://swiser.github.io/MATH5620/HW/lax_wendroff_negative.png)
+![Negative Scalar](https://swiser.github.io/MATH5620/HW8/lax_wendroff_negative.png)
 
 
 
