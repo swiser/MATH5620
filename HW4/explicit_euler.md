@@ -1,7 +1,7 @@
 # Function Name: explicit_euler()
 
 ### Last Mod Date
-March 21, 2018
+May 3, 2018
 ### Author
 Skyler Wiser
 ### Written For
@@ -10,7 +10,7 @@ Python 2.7.13
 Using the explicit Euler method, solve the general initial value problem _u'=f(u,t), u(t0)=u0_
 ### Inputs
 
-* function: The function _u'_
+* u_prime: The function _u'_
 * u0: The initial value for _u(t)_
 * t0: The initial time value
 * t_final: The final time value
@@ -18,7 +18,7 @@ Using the explicit Euler method, solve the general initial value problem _u'=f(u
 
 ### Outputs
 
-* u_final: The _u(t)_ value at the final time
+* u_new: The _u(t)_ value at the final time
 
 ### Modules Used
 
@@ -28,13 +28,21 @@ Using the explicit Euler method, solve the general initial value problem _u'=f(u
 ### Code
 
 ```python
-def explicit_euler(function, u0, t0,t_final,delta_t):
+def explicit_euler(u_prime, u0, t0,t_final,delta_t):
     time=t0
     u_old=u0
+    u_new=u_old
+    iterator=1
     while(time<t_final):
-        u_new=u_old+delta_t*function(u_old,time)
+        if((time+delta_t)>t_final):
+            delta_t=t_final-time
+            u_new=u_old+delta_t*u_prime(u_old,time)
+            return u_new
+        
+        u_new=u_old+delta_t*u_prime(u_old,time)
         u_old=u_new
-        time+=delta_t
+        time=iterator*delta_t
+        iterator+=1
 
     return u_new
 ```
